@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="If-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - B I C I   C E N T E R</title>
+    <link rel="icon" href="img/logo_oficial.png" type="image/icon type">
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet'>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <header class="header-container">
+        <img class="image-container" src="img/logo_oficial.png" alt="logo Bici Center">
+        <nav class="nav-container">
+            <ul>
+                <li><a class="menu-link" href="index.html">Home</a></li>
+                <li><a class="menu-link" href="galeria.html">Galería</a></li> 
+                <li><a class="menu-link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>CONTACTO</h1>
+        <div class="flex-container">
+            <form id="formulario" action="procesar.php" method="">
+
+                <div class="form-control">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input id="nombre" type="text" placeholder="Juan Perez">
+                    <p></p>                
+                </div>
+    
+                <div class="form-control">
+                    <label for="telefono">Teléfono</label>
+                    <input id="telefono" type="telefono" placeholder="1555555555">
+                    <p></p>                
+                </div>
+                <div class="form-control">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" placeholder="juanperez@gmail.com">
+                    <p></p>                
+                </div>
+    
+                <div class="form-control">
+                    <label for="consulta">Mensaje/Consulta</label>
+                    <textarea id="consulta" rows="10" cols="30" placeholder="Consultar"></textarea></textarea>
+                    <p></p>                
+                </div>
+                <button>Enviar</button>
+            </form>
+        </div>
+        <script src="validar_contacto.js"></script>
+    </main>
+    
+<footer class="flex-container">
+    <div class="flex-item-left">
+        <h3>Contactanos</h3>
+        <h5 class="fa fa-whatsapp">  5491155073604</h5><br>
+        <h5 class="fa fa-phone">  11 4981 3434 </h5><br>
+        <h5 class="fa fa-envelope">   info@bicicenter.com.ar</h5><br>
+        <h5 class="fa fa-map-marker">  Av. Cabildo 2438 , Belgrano, CABA / Lun a Vie 09 a 18 hs - Sab 10 a 15 hs</h5>
+    </div>
+    <div class="flex-item-right">
+        <h3>Seguinos</h3>
+        <!-- FontAwesome-->
+        <a href="www.instagram.com/bicicenter" class="fa fa-instagram" target="_blank"></a>
+        <a href="www.facebook.com/bicicenter" class="fa fa-facebook" target="_blank"></a>
+        <a href="www.youtube.com/bicicenter" class="fa fa-youtube" target="_blank"></a>
+    </div>
+</footer>
+
+</body>
+</html>
